@@ -33,3 +33,21 @@ nav.container span {
 ul {
     list-style: none;
 }
+
+/* Conteudo das fotos */
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: violet;
+}
+
+#container li {
+    background: black;
+    margin: 2em 0;
+    padding: 1em;
+}
+
+#container li img {
+    width: 350px;
+}
