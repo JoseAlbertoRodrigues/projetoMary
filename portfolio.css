@@ -41,7 +41,7 @@ ul {
 /* Conteudo das fotos */
 #container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     background: violet;
 }
@@ -54,4 +54,20 @@ ul {
 
 #container li img {
     width: 350px;
+}
+
+/* Back to top */
+a.back-to-top {
+    background: black;
+    color: rgb(129, 129, 245);
+
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+
+    padding: 0.5rem;
+    clip-path: circle();
+
+    font-size: 1.5rem;
+    line-height: 0;
 }
